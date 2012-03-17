@@ -90,7 +90,7 @@ class TestTranslate < Test::Unit::TestCase
 	end
 
 	def test_translation_is_reversible
-		raw = "hugo lopes"
+		raw = "juarez bochi"
 		laugh_alphabet = "Hhaeou"
 		ciphered = translate(raw, $alphabet, laugh_alphabet)
     assert_equal("", ciphered)
